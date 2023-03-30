@@ -41,10 +41,11 @@ class MainActivity : AppCompatActivity() {
         navView = findViewById(R.id.nav_view)
         mainProgressBar = findViewById(R.id.main_progressBar)
 
+        setSupportActionBar(mainToolbar)
+
         notificationsBadge =
             navView.getOrCreateBadge(R.id.navigation_notifications).apply { isVisible = false }
 
-        setSupportActionBar(mainToolbar)
 
         val navController = findNavController(R.id.nav_host_fragment)
         navController.addOnDestinationChangedListener { _, destination, _ ->
