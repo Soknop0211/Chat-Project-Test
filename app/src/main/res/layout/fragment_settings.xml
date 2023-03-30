@@ -8,7 +8,7 @@
 
         <variable
             name="viewmodel"
-            type="com.fredrikbogg.android_chat_app.ui.settings.SettingsViewModel" />
+            type="com.newapp.test_firebase_app.ui.settings.SettingsViewModel" />
 
     </data>
 
